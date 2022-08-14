@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/linearBgColor"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:id="@+id/meyveler_item_imageViewResim"
+        android:scaleType="fitXY"
+        android:layout_height="96dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/meyveler_item_textViewMeyveIsmi"
+            android:text="Meyve Ismi"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/meyveler_item_textViewMeyveKalori"
+            android:text="Meyve Ismi"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:textColor="@color/textColor"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
