@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasketActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/basket_recvlerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="290dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="30dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:text="Total: "
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+        <TextView
+            android:id="@+id/sum_total_tv"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:text="0.0"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="20sp"
+            android:textAlignment="viewEnd"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:paddingRight="25dp"
+            tools:ignore="MissingConstraints,RtlCompat"
+            app:layout_constraintRight_toRightOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/basket_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:foreground="@drawable/credit_card"
+        android:text=""
+        android:textColor="@color/white"
+        android:backgroundTint="#fafafa"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

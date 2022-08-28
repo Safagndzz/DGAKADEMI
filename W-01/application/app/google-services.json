@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "482315040226",
-    "project_id": "fir-59372",
-    "storage_bucket": "fir-59372.appspot.com"
+    "project_number": "201099111605",
+    "project_id": "project-d7b9a",
+    "storage_bucket": "project-d7b9a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:482315040226:android:a7af3198d077daaa9b35bb",
+        "mobilesdk_app_id": "1:201099111605:android:f8978874ec08985f0262fc",
         "android_client_info": {
           "package_name": "com.example.application"
         }
       },
       "oauth_client": [
         {
-          "client_id": "482315040226-qkudso3cijlg7o6kctdksmttdkr7qmt0.apps.googleusercontent.com",
+          "client_id": "201099111605-6osq075ajk0dnecb304jn602hudrvtir.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB8mY56LqeqxrIFaWB1Tgk0OyJ2JrLzPts"
+          "current_key": "AIzaSyD3rNtrS-pX_5aiqG4VnE8eiFvlCr3PKEE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "482315040226-qkudso3cijlg7o6kctdksmttdkr7qmt0.apps.googleusercontent.com",
+              "client_id": "201099111605-6osq075ajk0dnecb304jn602hudrvtir.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -36,27 +36,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:482315040226:android:a2a2b7dd1b4cbe229b35bb",
+        "mobilesdk_app_id": "1:201099111605:android:c93c30d2c56e2d2e0262fc",
         "android_client_info": {
-          "package_name": "com.example.firebase"
+          "package_name": "com.example.project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "482315040226-qkudso3cijlg7o6kctdksmttdkr7qmt0.apps.googleusercontent.com",
+          "client_id": "201099111605-s75bi3fe5d7u5kl3g90s2g23r15ob2o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "60337b2f862b569464e6f4a59103262c8648bb48"
+          }
+        },
+        {
+          "client_id": "201099111605-6osq075ajk0dnecb304jn602hudrvtir.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB8mY56LqeqxrIFaWB1Tgk0OyJ2JrLzPts"
+          "current_key": "AIzaSyD3rNtrS-pX_5aiqG4VnE8eiFvlCr3PKEE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "482315040226-qkudso3cijlg7o6kctdksmttdkr7qmt0.apps.googleusercontent.com",
+              "client_id": "201099111605-6osq075ajk0dnecb304jn602hudrvtir.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
